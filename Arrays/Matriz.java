@@ -18,7 +18,7 @@ public class Matriz {
 		double total = 0;
 		for (int aluno = 0; aluno < notasTurma.length; aluno++) {
 			for (int nota = 0; nota < notasTurma[aluno].length; nota++) {
-				System.out.printf("Informe a %dº do %dº aluno: ", nota + 1, aluno + 1);
+				System.out.printf("Informe a %dº nota do %dº aluno: ", nota + 1, aluno + 1);
 				notasTurma[aluno][nota] = input.nextDouble();
 				total += notasTurma[aluno][nota];
 			}
