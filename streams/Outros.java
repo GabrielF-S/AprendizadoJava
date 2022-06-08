@@ -18,7 +18,7 @@ public class Outros {
 		
 		List<Aluno> alunos = Arrays.asList(a1,a2,a3,a4,a5,a6, a7,a8);
 		
-		System.out.println("Distrinct...");
+		System.out.println("Distinct...");
 		alunos.stream().distinct().forEach(System.out::println);
 		
 		System.out.println("\nSkip and Limit");
